@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FieldTypes>
+  <FieldType>
+    <Field Name="TypeName">DateTimeByMinuteField</Field>
+    <Field Name="TypeDisplayName">DateTime (1 minute interval) Field</Field>
+    <Field Name="TypeShortDescription">DateTime field with 1 minute increments</Field>
+    <Field Name="ParentType">Text</Field>
+    <Field Name="UserCreatable">TRUE</Field>
+    <Field Name="FieldTypeClass">17419dea-75f0-45b3-ad3e-ffcd8d91055b</Field>
+    <PropertySchema>
+      <Fields>
+		  <Field Name="TheDatePicker" DisplayName="Date:" MaxLength="10" DisplaySize="10" Type="Text">
+			  <Default></Default>
+		  </Field>
+		  <Field Name="DefaultHH" DisplayName="Hour:" MaxLength="10" DisplaySize="10" Type="Text">
+          <Default>12 AM</Default>
+        </Field>
+        <Field Name="DefaultMM" DisplayName="Minute:" MaxLength="10" DisplaySize="10" Type="Text">
+          <Default>00</Default>
+        </Field>
+        
+      </Fields>
+    </PropertySchema>
+  </FieldType>
+</FieldTypes>
+
+
